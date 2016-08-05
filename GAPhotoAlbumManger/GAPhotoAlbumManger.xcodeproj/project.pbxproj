@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042F0AB91D539E9C00D3DC76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F0AB81D539E9C00D3DC76 /* main.m */; };
+		042F0ABC1D539E9C00D3DC76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F0ABB1D539E9C00D3DC76 /* AppDelegate.m */; };
+		042F0ABF1D539E9C00D3DC76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F0ABE1D539E9C00D3DC76 /* ViewController.m */; };
+		042F0AC21D539E9C00D3DC76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042F0AC01D539E9C00D3DC76 /* Main.storyboard */; };
+		042F0AC41D539E9C00D3DC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042F0AC31D539E9C00D3DC76 /* Assets.xcassets */; };
+		042F0AC71D539E9C00D3DC76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042F0AC51D539E9C00D3DC76 /* LaunchScreen.storyboard */; };
+		042F0AD21D539E9C00D3DC76 /* GAPhotoAlbumMangerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F0AD11D539E9C00D3DC76 /* GAPhotoAlbumMangerTests.m */; };
+		042F0ADD1D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F0ADC1D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests.m */; };
+		042F0AED1D539EF900D3DC76 /* GAPhotoAlbumManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F0AEC1D539EF900D3DC76 /* GAPhotoAlbumManger.m */; };
+		043F01711D5435A900A59A72 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F01701D5435A900A59A72 /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		043F01731D5435BE00A59A72 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F01721D5435BE00A59A72 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042F0ACE1D539E9C00D3DC76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042F0AAC1D539E9B00D3DC76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042F0AB31D539E9C00D3DC76;
+			remoteInfo = GAPhotoAlbumManger;
+		};
+		042F0AD91D539E9C00D3DC76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042F0AAC1D539E9B00D3DC76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042F0AB31D539E9C00D3DC76;
+			remoteInfo = GAPhotoAlbumManger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042F0AB41D539E9C00D3DC76 /* GAPhotoAlbumManger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAPhotoAlbumManger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042F0AB81D539E9C00D3DC76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042F0ABA1D539E9C00D3DC76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		042F0ABB1D539E9C00D3DC76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		042F0ABD1D539E9C00D3DC76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		042F0ABE1D539E9C00D3DC76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		042F0AC11D539E9C00D3DC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042F0AC31D539E9C00D3DC76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042F0AC61D539E9C00D3DC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042F0AC81D539E9C00D3DC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042F0ACD1D539E9C00D3DC76 /* GAPhotoAlbumMangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAPhotoAlbumMangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042F0AD11D539E9C00D3DC76 /* GAPhotoAlbumMangerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAPhotoAlbumMangerTests.m; sourceTree = "<group>"; };
+		042F0AD31D539E9C00D3DC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042F0AD81D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAPhotoAlbumMangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042F0ADC1D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAPhotoAlbumMangerUITests.m; sourceTree = "<group>"; };
+		042F0ADE1D539E9C00D3DC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042F0AEB1D539EF900D3DC76 /* GAPhotoAlbumManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAPhotoAlbumManger.h; sourceTree = "<group>"; };
+		042F0AEC1D539EF900D3DC76 /* GAPhotoAlbumManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAPhotoAlbumManger.m; sourceTree = "<group>"; };
+		043F01701D5435A900A59A72 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		043F01721D5435BE00A59A72 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042F0AB11D539E9C00D3DC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F01731D5435BE00A59A72 /* AssetsLibrary.framework in Frameworks */,
+				043F01711D5435A900A59A72 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042F0ACA1D539E9C00D3DC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042F0AD51D539E9C00D3DC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042F0AAB1D539E9B00D3DC76 = {
+			isa = PBXGroup;
+			children = (
+				043F01721D5435BE00A59A72 /* AssetsLibrary.framework */,
+				043F01701D5435A900A59A72 /* Photos.framework */,
+				042F0AB61D539E9C00D3DC76 /* GAPhotoAlbumManger */,
+				042F0AD01D539E9C00D3DC76 /* GAPhotoAlbumMangerTests */,
+				042F0ADB1D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests */,
+				042F0AB51D539E9C00D3DC76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042F0AB51D539E9C00D3DC76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042F0AB41D539E9C00D3DC76 /* GAPhotoAlbumManger.app */,
+				042F0ACD1D539E9C00D3DC76 /* GAPhotoAlbumMangerTests.xctest */,
+				042F0AD81D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042F0AB61D539E9C00D3DC76 /* GAPhotoAlbumManger */ = {
+			isa = PBXGroup;
+			children = (
+				042F0AEA1D539EE900D3DC76 /* GAPhotoAlbumManger */,
+				042F0ABA1D539E9C00D3DC76 /* AppDelegate.h */,
+				042F0ABB1D539E9C00D3DC76 /* AppDelegate.m */,
+				042F0ABD1D539E9C00D3DC76 /* ViewController.h */,
+				042F0ABE1D539E9C00D3DC76 /* ViewController.m */,
+				042F0AC01D539E9C00D3DC76 /* Main.storyboard */,
+				042F0AC31D539E9C00D3DC76 /* Assets.xcassets */,
+				042F0AC51D539E9C00D3DC76 /* LaunchScreen.storyboard */,
+				042F0AC81D539E9C00D3DC76 /* Info.plist */,
+				042F0AB71D539E9C00D3DC76 /* Supporting Files */,
+			);
+			path = GAPhotoAlbumManger;
+			sourceTree = "<group>";
+		};
+		042F0AB71D539E9C00D3DC76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042F0AB81D539E9C00D3DC76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		042F0AD01D539E9C00D3DC76 /* GAPhotoAlbumMangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				042F0AD11D539E9C00D3DC76 /* GAPhotoAlbumMangerTests.m */,
+				042F0AD31D539E9C00D3DC76 /* Info.plist */,
+			);
+			path = GAPhotoAlbumMangerTests;
+			sourceTree = "<group>";
+		};
+		042F0ADB1D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				042F0ADC1D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests.m */,
+				042F0ADE1D539E9C00D3DC76 /* Info.plist */,
+			);
+			path = GAPhotoAlbumMangerUITests;
+			sourceTree = "<group>";
+		};
+		042F0AEA1D539EE900D3DC76 /* GAPhotoAlbumManger */ = {
+			isa = PBXGroup;
+			children = (
+				042F0AEB1D539EF900D3DC76 /* GAPhotoAlbumManger.h */,
+				042F0AEC1D539EF900D3DC76 /* GAPhotoAlbumManger.m */,
+			);
+			path = GAPhotoAlbumManger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042F0AB31D539E9C00D3DC76 /* GAPhotoAlbumManger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042F0AE11D539E9C00D3DC76 /* Build configuration list for PBXNativeTarget "GAPhotoAlbumManger" */;
+			buildPhases = (
+				042F0AB01D539E9C00D3DC76 /* Sources */,
+				042F0AB11D539E9C00D3DC76 /* Frameworks */,
+				042F0AB21D539E9C00D3DC76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GAPhotoAlbumManger;
+			productName = GAPhotoAlbumManger;
+			productReference = 042F0AB41D539E9C00D3DC76 /* GAPhotoAlbumManger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042F0ACC1D539E9C00D3DC76 /* GAPhotoAlbumMangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042F0AE41D539E9C00D3DC76 /* Build configuration list for PBXNativeTarget "GAPhotoAlbumMangerTests" */;
+			buildPhases = (
+				042F0AC91D539E9C00D3DC76 /* Sources */,
+				042F0ACA1D539E9C00D3DC76 /* Frameworks */,
+				042F0ACB1D539E9C00D3DC76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042F0ACF1D539E9C00D3DC76 /* PBXTargetDependency */,
+			);
+			name = GAPhotoAlbumMangerTests;
+			productName = GAPhotoAlbumMangerTests;
+			productReference = 042F0ACD1D539E9C00D3DC76 /* GAPhotoAlbumMangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		042F0AD71D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042F0AE71D539E9C00D3DC76 /* Build configuration list for PBXNativeTarget "GAPhotoAlbumMangerUITests" */;
+			buildPhases = (
+				042F0AD41D539E9C00D3DC76 /* Sources */,
+				042F0AD51D539E9C00D3DC76 /* Frameworks */,
+				042F0AD61D539E9C00D3DC76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042F0ADA1D539E9C00D3DC76 /* PBXTargetDependency */,
+			);
+			name = GAPhotoAlbumMangerUITests;
+			productName = GAPhotoAlbumMangerUITests;
+			productReference = 042F0AD81D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042F0AAC1D539E9B00D3DC76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Graphic-one";
+				TargetAttributes = {
+					042F0AB31D539E9C00D3DC76 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					042F0ACC1D539E9C00D3DC76 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 042F0AB31D539E9C00D3DC76;
+					};
+					042F0AD71D539E9C00D3DC76 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 042F0AB31D539E9C00D3DC76;
+					};
+				};
+			};
+			buildConfigurationList = 042F0AAF1D539E9B00D3DC76 /* Build configuration list for PBXProject "GAPhotoAlbumManger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042F0AAB1D539E9B00D3DC76;
+			productRefGroup = 042F0AB51D539E9C00D3DC76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042F0AB31D539E9C00D3DC76 /* GAPhotoAlbumManger */,
+				042F0ACC1D539E9C00D3DC76 /* GAPhotoAlbumMangerTests */,
+				042F0AD71D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042F0AB21D539E9C00D3DC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042F0AC71D539E9C00D3DC76 /* LaunchScreen.storyboard in Resources */,
+				042F0AC41D539E9C00D3DC76 /* Assets.xcassets in Resources */,
+				042F0AC21D539E9C00D3DC76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042F0ACB1D539E9C00D3DC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042F0AD61D539E9C00D3DC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042F0AB01D539E9C00D3DC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042F0AED1D539EF900D3DC76 /* GAPhotoAlbumManger.m in Sources */,
+				042F0ABF1D539E9C00D3DC76 /* ViewController.m in Sources */,
+				042F0ABC1D539E9C00D3DC76 /* AppDelegate.m in Sources */,
+				042F0AB91D539E9C00D3DC76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042F0AC91D539E9C00D3DC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042F0AD21D539E9C00D3DC76 /* GAPhotoAlbumMangerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042F0AD41D539E9C00D3DC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042F0ADD1D539E9C00D3DC76 /* GAPhotoAlbumMangerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042F0ACF1D539E9C00D3DC76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042F0AB31D539E9C00D3DC76 /* GAPhotoAlbumManger */;
+			targetProxy = 042F0ACE1D539E9C00D3DC76 /* PBXContainerItemProxy */;
+		};
+		042F0ADA1D539E9C00D3DC76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042F0AB31D539E9C00D3DC76 /* GAPhotoAlbumManger */;
+			targetProxy = 042F0AD91D539E9C00D3DC76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042F0AC01D539E9C00D3DC76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042F0AC11D539E9C00D3DC76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042F0AC51D539E9C00D3DC76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042F0AC61D539E9C00D3DC76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042F0ADF1D539E9C00D3DC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042F0AE01D539E9C00D3DC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042F0AE21D539E9C00D3DC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GAPhotoAlbumManger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Graphic-One.GAPhotoAlbumManger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		042F0AE31D539E9C00D3DC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GAPhotoAlbumManger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Graphic-One.GAPhotoAlbumManger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		042F0AE51D539E9C00D3DC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GAPhotoAlbumMangerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Graphic-One.GAPhotoAlbumMangerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GAPhotoAlbumManger.app/GAPhotoAlbumManger";
+			};
+			name = Debug;
+		};
+		042F0AE61D539E9C00D3DC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GAPhotoAlbumMangerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Graphic-One.GAPhotoAlbumMangerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GAPhotoAlbumManger.app/GAPhotoAlbumManger";
+			};
+			name = Release;
+		};
+		042F0AE81D539E9C00D3DC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GAPhotoAlbumMangerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Graphic-One.GAPhotoAlbumMangerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GAPhotoAlbumManger;
+			};
+			name = Debug;
+		};
+		042F0AE91D539E9C00D3DC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GAPhotoAlbumMangerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Graphic-One.GAPhotoAlbumMangerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GAPhotoAlbumManger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042F0AAF1D539E9B00D3DC76 /* Build configuration list for PBXProject "GAPhotoAlbumManger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042F0ADF1D539E9C00D3DC76 /* Debug */,
+				042F0AE01D539E9C00D3DC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042F0AE11D539E9C00D3DC76 /* Build configuration list for PBXNativeTarget "GAPhotoAlbumManger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042F0AE21D539E9C00D3DC76 /* Debug */,
+				042F0AE31D539E9C00D3DC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042F0AE41D539E9C00D3DC76 /* Build configuration list for PBXNativeTarget "GAPhotoAlbumMangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042F0AE51D539E9C00D3DC76 /* Debug */,
+				042F0AE61D539E9C00D3DC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042F0AE71D539E9C00D3DC76 /* Build configuration list for PBXNativeTarget "GAPhotoAlbumMangerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042F0AE81D539E9C00D3DC76 /* Debug */,
+				042F0AE91D539E9C00D3DC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042F0AAC1D539E9B00D3DC76 /* Project object */;
+}
