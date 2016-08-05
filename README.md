@@ -9,8 +9,8 @@ Download the pictures to the custom photo album (Used in full version)
 iOS9 before use AssetsLibrary.framework
 <br>iOS9 after use Photos.framework
 
+<br><br>
 
-<br><br><br><br>
 # 中文介绍
 GAPhotoAlbumManger是一个下载图片到自定义相册的组件 (兼容所有版本)
 
